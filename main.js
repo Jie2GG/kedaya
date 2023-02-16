@@ -16,6 +16,7 @@ else {
     filename = 'jd_task_test'
 }
 let dirname = path = process.mainModule.path
+console.log("dirname: " + dirname)
 let type = filename.split('_')[0]
 switch (type) {
     case "js":
